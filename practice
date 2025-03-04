@@ -1,0 +1,12 @@
+let spritesheet;
+let sprites = [];
+let direction = 1; // 0 up
+let step = 0;
+let x;
+let y;
+let walkSpeed = 3;
+let background_color = 'teal';
+
+function preload() {
+  spritesheet = loadImage("walking.png");
+}
